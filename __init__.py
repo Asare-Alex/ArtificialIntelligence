@@ -1,10 +1,11 @@
 from typing import List, Optional
 
+__version__ = "21.1.2"
+
 
 def main(args=None):
     # type: (Optional[List[str]]) -> int
-    """This is preserved for old console scripts that may still be referencing
-    it.
+    """This is an internal API only meant for use by pip's own console scripts.
 
     For additional details, see https://github.com/pypa/pip/issues/7498.
     """
